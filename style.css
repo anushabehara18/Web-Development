@@ -1,0 +1,264 @@
+/*.container{
+	max-width:100%;
+	padding:0px;
+	margin:0px;
+}*/
+.navbar-brand{
+	font-size: 24px;
+	font-weight: 700;
+	background: #FDF5E6;
+	padding: 10px;
+}
+.nav-item{
+	border: 10px;
+}
+.nav-item a{
+	color:#666666
+}
+/*.banner img{
+	width: 100%;
+	height: 800px;
+}
+
+.banner p{
+	padding-left: 20%;
+	color: white;
+}
+.banner .read{
+	background: white;
+	color: #e84e35;
+	padding:5px 10px;
+	border-radius: 5px;
+	margin-left: 20%;
+	font-weight: 600;
+	text-decoration: none;
+}
+*/
+.banner{
+	height: 680px;
+}
+.banner h2{
+	padding-left: 25%;
+    padding-top: 15%;
+    color: white;
+}
+.banner p{
+	padding-left: 25%;
+    color: white;
+}
+.banner .read{
+	background: white;
+	color: #e84e35;
+	padding:5px 10px;
+	border-radius: 5px;
+	margin-left: 25%;
+	font-weight: 600;
+	text-decoration: none;
+}
+.banner .get{
+	background: #F2BE54;
+	color: white;
+	padding:5px 10px;
+	border-radius: 5px;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+.solutions_bg{
+	height: 500px;
+}
+.solutions_bg h2{
+	text-align: center;
+	font-size: 40px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 1px;
+}
+.solutions_bg p{
+	text-align: center;
+	font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #666666;
+}
+.solutions_bg a{
+	color: white;
+	background: #E84E35;
+	padding: 5px 10px ;
+	margin-left: 45%;
+	border-radius: 5px;
+	font-size: 14px;
+	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+	font-weight:700;
+}
+.solutions_bg img{
+	margin-left: 50%;
+	margin-top: 5%;
+
+}
+.solutions_bg{
+	background-image: url(/images/solutions_bg.jpg);
+}
+
+
+@media only screen and (max-width: 600px) {
+  .navbar-brand {
+    margin-left: 25%;
+  }
+}
+
+.simple{
+	height: 500px;
+	background-image: url(/images/simple_bg.jpg);
+}
+.simple h2{
+	text-align: center;
+	font-size: 40px;
+    font-weight: 400;
+    padding-top: 10%;
+    letter-spacing: 1px;
+}
+.simple p{
+	text-align: center;
+	font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: white;
+}
+.knw_contact_details
+{
+	background:lightgray;
+	padding: 15px;
+}
+.know_more {
+	margin-top: 20px;
+
+}
+.services{
+	margin-top: 15%;
+}
+.impt_services_details .row{
+	margin-top: 5%;
+}
+.impt_services_details{
+	background-color: #f6f6f6;
+}
+.service_img{
+	margin-left: 10%;
+
+}
+.impt_services_heading h2{
+	text-align: center;
+	margin-top: 5%;
+	padding-top: 10%;
+}
+.business_app{
+	margin-top: 5%;
+
+}
+/*.business_img{
+	margin-left: 50%;
+}*/
+.design p{
+text-align: center;
+}
+.text-center .row{
+	margin-top: 25px;
+}
+.es_content .es{
+text-align: center;
+
+}
+.skills h2{
+	text-align: center;
+	margin-top: 5%;
+}
+.getfree_bg{
+	height: 500px;
+}
+.f_img{
+text-align: center;
+margin: 5% 0px;
+}
+.features h2{
+text-align: center;
+margin-top: 10%;
+}
+.simple a{
+	color: white;
+	background: #E84E35;
+	padding: 5px 10px ;
+	margin-left: 45%;
+	border-radius: 5px;
+	font-size: 14px;
+	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+	font-weight:700;
+}
+.simple img{
+	margin-left: 50%;
+	margin-top: 5%;
+}
+
+.know_more{
+	height: 500px;
+	
+}
+.know_more_heading h2{
+	/*text-align: center  !important;*/
+	font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding-top: 5%;
+    text-align: center;
+}
+.know_more_content{
+	padding-left: 10%;
+
+}
+.know_more_content1{
+	padding-left: 10%;
+}
+.know_more p{
+	padding-right: : 30px;
+	padding-left: 30px;
+	font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: black;
+}
+.know_more a{
+	color: white;
+	background: #E84E35;
+	padding: 5px 10px ;
+	margin-left: 45%;
+	border-radius: 5px;
+	font-size: 14px;
+	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+	font-weight:700;
+}
+
+
+
+.know_about_us{
+	float: left;
+	padding: 5% 10px 15px 10%;
+
+}
+.image_kw img{
+	margin: 5% 10px 15px 15%;
+}
+.free_trail{
+	border:1px solid lightgray;
+	width: 300px;
+	padding: 15px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+
+
+
+
